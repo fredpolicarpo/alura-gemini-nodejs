@@ -2,7 +2,7 @@ import { GoogleGenAI } from "@google/genai";
 import { fazerPergunta } from "./pergunta.js";
 
 
-const ai = new GoogleGenAI({ apiKey: "AIzaSyCcKCZ_We7eShHFk3yFZNUvV48iqoaLfaI" });
+const ai = new GoogleGenAI({ apiKey: "" });
 
 async function main() {
   let prompt = "Você é um coach de programação, e deve ajudar com as melhores técnicas de programação. A dúvida é : "
